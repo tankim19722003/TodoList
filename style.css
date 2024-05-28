@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    max-width: 300px;
+    width:100%;
+}
+
+
+.todo-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid #ccc;
+    padding:6px 8px;
+    border-radius: 3px;
+    margin: 6px 0px;
+}
+.bin-icon {
+    width:25px;
+}
+
+.todo-item-input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding:6px 4px;
+}
+
+.btn {
+    border:1px solid #ccc;
+    padding: 6px 8px;
+    max-width:90px;
+    width:100%;
+    background-color:rgb(37, 37, 237);
+    color:white;
+    border-radius: 3px;
+}
